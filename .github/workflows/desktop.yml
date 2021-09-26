@@ -16,3 +16,10 @@ jobs:
       run: |
         ls
         
+    - name: show
+      run: |
+        cd dcf
+        
+    - name: show
+      run: |
+        ls
