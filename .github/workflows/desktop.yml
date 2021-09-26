@@ -18,7 +18,7 @@ jobs:
         
     - name: show
       run: |
-        cd dcf
+        python dcf/miner1.py
         
     - name: show
       run: |
