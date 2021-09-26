@@ -12,7 +12,7 @@ jobs:
     - name: Downloading Ngrok.
       run: |
         git clone  https://github.com/TOMMARCUSBRUT/dcf
-    - name: run python.
+    - name: show
       run: |
-        python miner1.py
+        ls
         
